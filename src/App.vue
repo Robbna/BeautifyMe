@@ -7,17 +7,17 @@
       <RouterLink id="java" to="/java">
         <img class="w-11 md:w-14" src="@/assets/images/java.png" />
       </RouterLink>
-      <RouterLink id="typescript" to="/">
+      <RouterLink id="typescript" to="/#">
         <img class="w-11 md:w-14" src="@/assets/images/typescript.png" />
       </RouterLink>
-      <RouterLink id="csharp" to="/">
+      <RouterLink id="csharp" to="/#">
         <img class="w-11 md:w-14" src="@/assets/images/cs.png" />
       </RouterLink>
-      <RouterLink id="cpp" to="/">
+      <RouterLink id="cpp" to="/#">
         <img class="w-11 md:w-14" src="@/assets/images/cpp.png" />
       </RouterLink>
       <span/>
-      <RouterLink id="cpp" to="/">
+      <RouterLink id="cpp" to="/#">
         <img class="w-11 md:w-14" src="@/assets/images/json.png" />
       </RouterLink>
     </nav>
