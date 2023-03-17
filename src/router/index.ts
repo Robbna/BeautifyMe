@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import JavaView from "@/views/LanguagesViews/JavaView.vue";
-
 export const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -13,7 +11,7 @@ export const router = createRouter({
     {
       path: "/java",
       name: "java",
-      component: JavaView,
+      component: () => import("@/views/LanguagesViews/JavaView.vue"),
     },
     {
       path: "/:pathMatch(.*)*",
