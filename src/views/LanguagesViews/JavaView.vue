@@ -56,6 +56,11 @@ const addVariableButtonCallback = (newVariable: Variable) => {
 
 const generateCodeCallback = () => {
 
+  if(!input.value.className && !input.value.hasVariables()) {
+    notify({group: "error", title: "Error", text: "Required fields!"}, 3000);
+    return;
+  }
+
   if(!input.value.className) {
     notify({group: "error", title: "Error", text: "Required class name!"}, 3000);
     return;
